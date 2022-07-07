@@ -13,5 +13,5 @@ jobs:
       with:
         node-version: 14
         cache: 'npm'
-    - run: yarn install --frozen-lock-file
+    - run: yarn install --immutable
     - run: scripts/build-storybook.sh
